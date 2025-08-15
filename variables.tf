@@ -1,4 +1,4 @@
 variable "api_token" {
-  type = string
+  type        = string
   description = "hetzner cloud api token"
 }
