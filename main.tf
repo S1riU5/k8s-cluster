@@ -9,5 +9,4 @@ module "kubernetes" {
   worker_nodepools = [
     { name = "worker", type = "cpx11", location = "fsn1", count = 3 }
   ]
-  ]
 }
